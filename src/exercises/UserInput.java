@@ -14,6 +14,7 @@ public class UserInput {
 		
 		System.out.println("Welcome, " + name + "!");
 		System.out.println();
+		
 		int selection = 0;
 		double total = 0;
 		
