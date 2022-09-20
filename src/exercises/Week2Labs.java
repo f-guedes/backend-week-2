@@ -105,6 +105,7 @@ public class Week2Labs {
 		
 		System.out.println(loyaltyMemberStatus);
 		
+		
 		//create two variables, username and password
 		//create a conditional that prints "login successful" if the username is "Tommy123" and the password is "12345"
 		//otherwise, print "access denied"
@@ -119,12 +120,14 @@ public class Week2Labs {
 		
 		System.out.println();
 		
+		
 		//write a for loop that prints each number from 0 to 9
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
 		}
 		
 		System.out.println();
+		
 		
 		//write a for loop that prints each number from 10 to 0 backwards
 		for (int i = 10; i >= 0; i--) {
@@ -133,12 +136,14 @@ public class Week2Labs {
 		
 		System.out.println();
 		
+		
 		//write a for loop that prints every other number from 0 to 100
 		for (int i = 0; i <= 100; i += 2) {
 			System.out.println(i);
 		}
 		
 		System.out.println();
+		
 		
 		//write a for loop that iterates from 0 to 100 and prints "EVEN" if the number is even and "ODD" if it's odd
 		for (int i = 0; i <= 100; i++) {
@@ -148,6 +153,7 @@ public class Week2Labs {
 		}
 		
 		System.out.println();
+		
 		
 		//write a while loop that starts at 100 and iterates backwards by 1 until it reaches 0
 		//divide each number by 3 and print the remainder to the console
