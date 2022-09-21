@@ -55,7 +55,7 @@ public class UserInput {
 				
 		}
 		
-		System.out.println("Your total is $" + total);
+		System.out.printf("Your total is $%.2f", total);
 
 	}
 
