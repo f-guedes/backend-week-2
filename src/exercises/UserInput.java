@@ -7,10 +7,10 @@ public class UserInput {
 	public static void main(String[] args) {
 		// Scanner example
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		
 		System.out.print("Enter your name: ");
-		String name = sc.nextLine();
+		String name = s.nextLine();
 		
 		System.out.println("Welcome, " + name + "!");
 		System.out.println();
@@ -28,7 +28,7 @@ public class UserInput {
 			System.out.println("5) Wireless Keyboard and Mouse Combo: $65.35");
 			System.out.println("6) Check out");
 		
-			selection = sc.nextInt();
+			selection = s.nextInt();
 			
 			switch (selection) {
 				case 1:
